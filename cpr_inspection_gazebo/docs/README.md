@@ -4,40 +4,25 @@ Modified clearpathrobotics outdoor simulation world for Gazebo.
 Flatened solar panels ground such that is easier for smaller robots to access them.
 Fixed water rendering issue.
 
-<img src="img1.png">
-<img src="img2.png">
+<img src="img1.jpg">
+<img src="img2.jpg">
 
 ## Supported Platrofms
 
 ### Husky
 <img src="https://clearpathrobotics.com/wp-content/uploads/2015/07/husky.jpg" width="20%">
 
-[![Launch Stack](launch-stack.png)](
-https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-inspection-gazebo&param_SimWorld=cpr_inspection_gazebo&param_SimLaunch=inspection_world.launch&param_RoboticPlatform=husky)
-
 ### Jackal
 <img src="https://clearpathrobotics.com/wp-content/uploads/2015/07/jackal.jpg" width="20%">
-
-[![Launch Stack](launch-stack.png)](
-https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-inspection-gazebo&param_SimWorld=cpr_inspection_gazebo&param_SimLaunch=inspection_world.launch&param_RoboticPlatform=jackal)
 
 ### Warthog
 <img src="https://s3.amazonaws.com/assets.clearpathrobotics.com/wp-content/uploads/2016/08/25085714/warthog-menu.jpg" width="20%">
 
-[![Launch Stack](launch-stack.png)](
-https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-inspection-gazebo&param_SimWorld=cpr_inspection_gazebo&param_SimLaunch=inspection_world.launch&param_RoboticPlatform=warthog)
-
 ### Moose
 <img src="https://clearpathrobotics.com/assets/renders/Moose-KS_VR.274/Moose-KS_VR.274/0_9.jpg" width="20%">
 
-[![Launch Stack](launch-stack.png)](
-https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-inspection-gazebo&param_SimWorld=cpr_inspection_gazebo&param_SimLaunch=inspection_world.launch&param_RoboticPlatform=moose)
-
 ### Heron
 <img src="https://clearpathrobotics.com/wp-content/uploads/2015/08/kingfisher-basic-config.jpg" width="20%">
-
-[![Launch Stack](launch-stack.png)](
-https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-inspection-gazebo&param_SimWorld=cpr_inspection_gazebo&param_SimLaunch=inspection_world.launch&param_RoboticPlatform=heron)
 
 ## Launching
 
@@ -66,13 +51,13 @@ This is a large, open outdoor world for Gazebo that has:
 
 ### Solar Panels
 
-<img src="img5.png">
-<img src="img6.png">
+<img src="img5.jpg">
+<img src="img6.jpg">
 
 ### Bridge
 
-<img src="img4.png">
+<img src="img4.jpg">
 
 ### Water physics
 
-<img src="img3.png">
+<img src="img3.jpg">
