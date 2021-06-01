@@ -1,7 +1,9 @@
 # cpr_inspection_gazebo
 
 Modified clearpathrobotics outdoor simulation world for Gazebo.
-Flatened solar panels ground such that is easier for smaller robots to access them.
+
+Flattened solar panels ground such that is easier for smaller robots to access them.
+
 Fixed water rendering issue.
 
 <img src="img1.jpg">
