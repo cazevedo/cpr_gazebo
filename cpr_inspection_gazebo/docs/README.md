@@ -1,8 +1,11 @@
 # cpr_inspection_gazebo
 
-Outdoor simulation world for Gazebo
+Modified clearpathrobotics outdoor simulation world for Gazebo.
+Flatened solar panels ground such that is easier for smaller robots to access them.
+Fixed water rendering issue.
 
 <img src="img1.png">
+<img src="img2.png">
 
 ## Supported Platrofms
 
@@ -38,7 +41,7 @@ https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=
 
 ## Launching
 
-```roslaunch cpr_inspection_gazebo inspection_world.launch```
+```roslaunch cpr_inspection_gazebo inspection_world_only.launch```
 
 Optionally, you can specify a platform using the platform variable:
 
@@ -63,20 +66,13 @@ This is a large, open outdoor world for Gazebo that has:
 
 ### Solar Panels
 
-<img src="img2.png">
+<img src="img5.png">
+<img src="img6.png">
 
 ### Bridge
 
-<img src="img3.png">
-
-### Pipeline
-
 <img src="img4.png">
-
-### Mine Tunnel
-
-<img src="img5.png">
 
 ### Water physics
 
-<img src="img6.png">
+<img src="img3.png">
