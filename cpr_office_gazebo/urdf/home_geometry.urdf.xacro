@@ -9,13 +9,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://cpr_office_gazebo/meshes/office.dae"/>
+        <mesh filename="package://cpr_office_gazebo/meshes/home.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://cpr_office_gazebo/meshes/office.dae"/>
+        <mesh filename="package://cpr_office_gazebo/meshes/home.dae"/>
       </geometry>
       <surface>
         <friction>
