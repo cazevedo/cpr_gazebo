@@ -1,11 +1,11 @@
 <launch>
-    <param name="office_geom" command="$(find xacro)/xacro --inorder '$(find cpr_office_gazebo)/urdf/home_geometry.urdf.xacro'" />
+    <param name="office_geom" command="$(find xacro)/xacro --inorder '$(find cpr_office_gazebo)/urdf/home_small_geometry.urdf.xacro'" />
 
-    <!-- <arg name="platform" default="$(optenv CPR_GAZEBO_PLATFORM jackal)" />
+    <arg name="platform" default="$(optenv CPR_GAZEBO_PLATFORM jackal)" />
     <arg name="x" default="0.0"/>
     <arg name="y" default="0.0"/>
     <arg name="z" default="0.2"/>
-    <arg name="yaw" default="0.0" /> -->
+    <arg name="yaw" default="0.0" />
 
     <arg name="use_sim_time" default="true" />
     <arg name="gui" default="true" />
@@ -21,10 +21,10 @@
 
     <node name="office_world_spawner" pkg="gazebo_ros" type="spawn_model" args="-urdf -model office_geom -param office_geom -x 0 -y 0 -z 0 -Y 0" />
 
-    <!-- <include file="$(find cpr_office_gazebo)/launch/spawn_$(arg platform).launch">
+    <include file="$(find cpr_office_gazebo)/launch/spawn_$(arg platform).launch">
       <arg name="x" value="$(arg x)"/>
       <arg name="y" value="$(arg y)"/>
       <arg name="z" value="$(arg z)"/>
       <arg name="yaw" value="$(arg yaw)"/>
-    </include> -->
+    </include>
 </launch>
