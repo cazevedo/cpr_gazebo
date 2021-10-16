@@ -9,13 +9,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://cpr_inspection_gazebo/meshes/inspection_hoping_its_final.dae"/>
+        <mesh filename="package://cpr_inspection_gazebo/meshes/inspection_wide_bridge_more_flattened.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://cpr_inspection_gazebo/meshes/inspection_hoping_its_final.dae"/>
+        <mesh filename="package://cpr_inspection_gazebo/meshes/inspection_wide_bridge_more_flattened.dae"/>
       </geometry>
       <surface>
         <friction>
