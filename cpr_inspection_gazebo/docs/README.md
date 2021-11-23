@@ -47,5 +47,5 @@ catkin build
 # Run
 Terminal #1
 ```sh
-roslaunch multi_jackal_titorials three_jackal_inspection.launch
+roslaunch multi_jackal_tutorials three_robot_inspection.launch
 ```
