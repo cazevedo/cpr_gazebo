@@ -1,4 +1,4 @@
-# cpr_inspection_gazebo
+# Solar Farm Inspection 
 
 Modified clearpathrobotics outdoor simulation world for Gazebo.
 
@@ -9,57 +9,43 @@ Fixed water rendering issue.
 <img src="img1.jpg">
 <img src="img2.jpg">
 
-## Supported Platrofms
+# Multi-Jackal and Multi-Warthog Simulator using Gazebo ROS Noetic
+Here you find launch files to spawn and simulate multiple Jackals and Warthogs in Gazebo.
+It uses the Clearpath's packages modified to accomodate multiple robots.
 
-### Husky
-<img src="https://clearpathrobotics.com/wp-content/uploads/2015/07/husky.jpg" width="20%">
+# Setup
+To setup the solar farm simulation with multiple Jackals and Warthogs follow the instructions bellow to install the necessary dependencies:
 
-### Jackal
-<img src="https://clearpathrobotics.com/wp-content/uploads/2015/07/jackal.jpg" width="20%">
+```sh
+roscd
+```
 
-### Warthog
-<img src="https://s3.amazonaws.com/assets.clearpathrobotics.com/wp-content/uploads/2016/08/25085714/warthog-menu.jpg" width="20%">
+```sh
+git clone https://github.com/cazevedo/battery_mockup.git
+```
 
-### Moose
-<img src="https://clearpathrobotics.com/assets/renders/Moose-KS_VR.274/Moose-KS_VR.274/0_9.jpg" width="20%">
+```sh
+git clone https://github.com/cazevedo/cpr_gazebo.git
+```
 
-### Heron
-<img src="https://clearpathrobotics.com/wp-content/uploads/2015/08/kingfisher-basic-config.jpg" width="20%">
+```sh
+git clone https://github.com/cazevedo/robot_state_publisher2.git
+```
 
-## Launching
+```sh
+git clone https://github.com/amdpaula/multi_warthog.git
+```
 
-```roslaunch cpr_inspection_gazebo inspection_world_only.launch```
+```sh
+git clone https://github.com/amdpaula/multi_jackal.git
+```
 
-Optionally, you can specify a platform using the platform variable:
+```sh
+catkin build
+```
 
-```roslaunch cpr_inspection_gazebo inspection_world.launch platform:=jackal```
-
-Supported values for the platform variable are:
-* husky (default)
-* jackal
-* warthog
-* moose
-* heron
-
-The spawn location for the robot can be specified by setting the `x`, `y`, `z`, and `yaw` variables.  Note that some X/Y positions
-may place the robot over the water feature instead of on dry land.  The Z value should be set to be above ground-level; otherwise
-the robot may fall through the ground plane as the environment renders.
-
-NOTE: the Heron's spawn location cannot be customized; it will always spawn in the same position on the water.
-
-## Features
-
-This is a large, open outdoor world for Gazebo that has:
-
-### Solar Panels
-
-<img src="img5.jpg">
-<img src="img6.jpg">
-
-### Bridge
-
-<img src="img4.jpg">
-
-### Water physics
-
-<img src="img3.jpg">
+# Run
+Terminal #1
+```sh
+roslaunch multi_jackal_titorials three_jackal_inspection.launch
+```
